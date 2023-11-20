@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+.App{
+    background-image: linear-gradient(to right top, #6b70d1, #288ee5, #00a7eb, #00bee6, #28d1db, #60dbda, #84e4db, #a2edde, #b7f1e9, #cdf5f1, #e3f9f8, #f9fdfd);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table{
+    background-image: linear-gradient(to right top, #0a15e9, #0062ff, #0088fe, #00a5e6, #00bdcf, #0fc4c8, #2ccabf, #47cfb4, #57c8b7, #66c0b7, #75b9b5, #83b1b1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.H1{
+    color: #0a15e9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Thead{
+    background-image: linear-gradient(to right top, #0a15e9, #0062ff, #0088fe, #00a5e6, #00bdcf, #0fc4c8, #2ccabf, #47cfb4, #57c8b7, #66c0b7, #75b9b5, #83b1b1);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Tbody td{
+    background-image: linear-gradient(to right top, #e0e1f4, #d5d6f5, #cacbf5, #bfc0f5, #b4b5f5, #a7a8f6, #9b9af6, #8e8df6, #7c7af7, #6966f7, #5452f6, #3c3cf4);
+    text-align: center;
 }
